@@ -21,7 +21,7 @@ button{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    margin-top: 100px;
     font-size: 15px;
     padding: 15px;
     background-color:#b0aeab;
@@ -44,4 +44,20 @@ button:hover{
 .jewellary{
     height: 280px;
     width: 300px;
+}
+.img-necklace{
+    height: 230px;
+    width: 250px;
+}
+.container{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-radius: 5px;
+}
+.container :hover{
+ background-color: black;
+ transition: 1s;
+ box-sizing: 10px;
 }
