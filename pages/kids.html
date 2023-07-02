@@ -5,42 +5,50 @@
 
     <title>Kid's Wear</title>
     <style>
-
-        body{
-            background-color: blanchedalmond;
-        }
-
-        .container{
-            display: flex;
-            flex-direction: row;
-            justify-content: end;
-           
-            
-        }
         .img {
-            border: 3px solid black;
+            margin-left: 330px;
+            margin-top: 50px;
+            
+
+        }
+
+        .heading {
+            margin-top: 50px;
+            margin-left: 850px;
+            font-size: 50px;
+            font-family: serif;
+
+        }
+        .cate{
             display: inline-block;
-            margin-top: 250px;
-            border-radius: 5px;
-            margin-left: 10px;
+            border: 2px solid black;
             
-            
-           
+            margin-left: 500px;
+        }
+        #girlimg{
+            width: 200px;
+            height: 200px;
         }
     </style>
 </head>
 
 <body>
-    <div class="container">
+    <div>
         <div class="img">
-            <img src="C:\Users\Urmila\Desktop\Fashion_store_website\images\boy.png"  />
-            <hr>
-            <h2>Boys</h2>
+            <img src="C:\Users\Urmila\Desktop\Fashion_store_website\images\kidsimg.png" />
         </div>
-        <div class="img">
-            <img src="C:\Users\Urmila\Desktop\Fashion_store_website\images\girl.png"  height="360px" width="360px"/>
-            <hr>
-            <h2>Girls</h2>
+        <h2 class="heading"> Categories</h2>
+        <div >
+            <div class="cate">
+                <img src="C:\Users\Urmila\Desktop\Fashion_store_website\images\boy.png"
+                width="250px"
+                height="340px" />
+            </div>
+            <div class="cate" id="girlimg">
+                <img src= "C:\Users\Urmila\Desktop\Fashion_store_website\images\girls.png" 
+                width="250px"
+                height="340px"/>
+            </div>
         </div>
     </div>
 </body>
