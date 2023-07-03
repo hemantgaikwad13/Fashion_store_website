@@ -3,18 +3,62 @@
 <head>
     
     <title> Froyo Fashion Store</title>
+    <style>
+        body{
+            margin: 0;
+        }
+
+        .nav_bar{
+            height: 30px;
+        }
+
+        .iframe{
+            margin-top: 50px;
+        }
+        .link{
+        text-decoration: none;
+        display: inline-block;
+        background-color:   #ff6666;
+        color: black;
+        margin: 15px;
+        border-radius: 5px 0px 5px 0px;
+        padding: 1px 3px 1px 3px;
+        font-size: 30px;
+        box-shadow: 0px 1px 8px 0.5px  #8c8c8c;
+        }
+
+        .link:hover{
+        background-color: black;
+        color: white;
+        border-radius: 3px;
+        padding: 2px 4px 2px 4px;
+        transition: 1s;
+        font: 40px;
+        }
+    </style>
 </head>
 <body>
-    <a href="home.html" target="frist iframe" >Home</a>
-    <a href="women.html" target="frist iframe" >Women's wear</a>
-    <a href="men.html" target="frist iframe" >Men's Wear</a>
-    <a href="kids.html" target="frist iframe" >Kids wear</a>
-    <a href="footwear.html" target="frist iframe" >Footwear</a>
-    <a href="accessories.html" target="frist iframe" >Accessories</a>
-    <a href="onsale.html" target="frist iframe" >On sale</a>
-    <a href="reviews.html" target="frist iframe" >Reviews</a>
-    <a href="videos.html" target="frist iframe" >Videos</a>
-    <a href="login.html" target="frist iframe" >Login</a>
-    <h1>Welcome to Froyo's Fashion Store</h1>
+   <div class="nav_bar">    
+    <a href="./pages/home.html"         target="frist iframe" class="link">     Home</a>
+    <a href="./pages/women.html"        target="frist iframe" class="link">     Women's wear</a>
+    <a href="./pages/mens.html"          target="frist iframe" class="link">     Men's Wear</a>
+    <a href="./pages/kids.html"         target="frist iframe" class="link">     Kids wear</a>
+    <a href="./pages/footwear.html"     target="frist iframe" class="link">     Footwear</a>
+    <a href="./pages/accessories.html"  target="frist iframe" class="link">     Accessories</a>
+    <a href="./pages/onsale.html"       target="frist iframe" class="link">     On sale</a>
+    <a href="./pages/reviews.html"      target="frist iframe" class="link">     Reviews</a>
+    <a href="./pages/videos.html"       target="frist iframe" class="link">     Videos</a>
+    <a href="./pages/login.html"        target="frist iframe" class="link">     Login</a>
+   </div>
+
+    <iframe src="./pages/home.html"
+    height="100%"
+    width="100%"
+    name="frist iframe"
+    class="iframe"
+    >
+    </iframe>
+
+    
 </body>
 </html>
