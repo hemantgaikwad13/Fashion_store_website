@@ -3,62 +3,58 @@
 <head>
     
     <title>Fashion Store Website</title>
-    <style>
-        
-        .navbar{
-        background-color:#47476b;
-        padding: 20px;
-        height: 50px;
-        text-align: center;
-        box-shadow: 0px 1px 5px 1px  #3f3f3f;
-        
-        }
-
-        .link{
-        text-decoration: none;
-        display: inline-block;
-        color: white;
-        margin: 15px;
-        border-radius: 5px 0px 5px 0px;
-        padding: 1px 3px 1px 3px;
-        font-size: 20px;
-        box-shadow: 0px 1px 4px 0.5px  #8c8c8c;
-        }
-
-        .link:hover{
-        background-color: black;
-        color: white;
-        border-radius: 3px;
-        padding: 2px 4px 2px 4px;
-        transition: 1s;
-        font: 40px;
-        }
-
-    body{
-        margin: 0 ;
-    }
-    </style>
+    <link rel="stylesheet" href="./../css/index.css">
+   
     
     <title> Froyo Fashion Store</title>
 </head>
 <body>
-    <div class="navbar">
-        <a href="./pages/home.html" target="frist iframe" class="link">Home</a>
-        <a href="./pages/womens.html" target="frist iframe" class="link">Women's wear</a>
-        <a href="./pages/mens.html" target="frist iframe" class="link">Men's Wear</a>
-        <a href="./pages/kids.html" target="frist iframe" class="link">Kids wear</a>
-        <a href="./pages/footwear.html" target="frist iframe" class="link">Footwear</a>
-        <a href="./pages/accessories.html" target="frist iframe" class="link">Accessories</a>
-        <a href="./pages/onsale.html" target="frist iframe" class="link">On sale</a>
-        <a href="./pages/reviews.html" target="frist iframe" class="link">Reviews</a>
-        <a href="./pages/videos.html" target="frist iframe" class="link">Videos</a>
-        <a href="./pages/login.html" target="frist iframe" class="link">Login</a>
-    </div>
+    <header>
+        <h1 class="center">Welcome to Froyo's Fashion Store</h1>
+        <nav class="navbar">
+            <a href="./pages/index.html"              class="link">          Home             </a>
+            <a href="./pages/womens.html"            class="link">          Women's wear     </a>
+            <a href="./pages/mens.html"              class="link">          Men's Wear       </a>
+            <a href="./pages/kids.html"              class="link">          Kids wear        </a>
+            <a href="./pages/footwear.html"          class="link">          Footwear         </a>
+            <a href="./pages/accessories.html"       class="link">          Accessories      </a>
+            <a href="./pages/onsale.html"            class="link">          On sale          </a>
+            <a href="./pages/reviews.html"           class="link">          Reviews          </a>
+            <a href="./pages/videos.html"            class="link">          Videos           </a>
+            <a href="./pages/login.html"             class="link">          Login            </a>
+        </nav>
+    </header>
    
-    <iframe src="./pages/home.html"
-    height="100vh"
-    width="100%"
-    name="frist iframe">
-    </iframe>
+    <image src="./../images/home images/home_5.jpg" class="img_discount"  class="poster"></image>
+    
+    
+    <h2 class="center">Men's Wear</h2>
+    <section class="container">
+        <div class="grid-container">
+         <div class="product">
+          <img src="./../images/men fashoin image/shart sample1.jpg">
+          <h3>Product 1</h3>
+         </div>
+          <div class="product">
+          <img src="./../images/men fashoin image/shart sample2.jpg">
+          <h3>Product 2</h3>
+          </div>
+          <div class="product">
+            <img src="./../images/men fashoin image/shart sample3.jpg">
+            <h3>Product 3</h3>
+          </div>
+          <div class="product">
+            <img src="./../images/men fashoin image/shart sample4.jpg" >
+            <h3>Product 4</h3>
+            </div>
+        </div>
+    </section>
+    
+    <div class="div_more">
+        <a href="./pages/mens.html" class="btn">See More</a>
+    </div>
+
+    <img id="p" src="./../images/men fashoin image/t-shart poster.jpg"/>
+    
 </body>
 </html>
