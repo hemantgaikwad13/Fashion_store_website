@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+body{
+    background-color: #ffaa00;
+}
+=======
 .h1{
     background-color: aqua;
     font-style: initial;
@@ -98,18 +103,8 @@ body, h1, h2, h3, ul, li, p {
   .contener {
        display: flex;
        flex-direction: row;
-       justify-content:space-evenly
+       justify-content:space-evenly;
 
-  }
-  #p{
-    margin-top: 10px;
-  }
-  .grid-container {
-    padding: 10px;
-    display: grid;
-    align-items: center;
-    grid-template-columns: auto auto auto auto;
-   
   }
   .product:hover{
     box-shadow: 0 0 10px #888;
@@ -151,3 +146,4 @@ body, h1, h2, h3, ul, li, p {
   }
 
   
+>>>>>>> e65eee8a5267117bcc564785f39da0257832034d
