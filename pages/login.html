@@ -5,26 +5,113 @@
 </head>
 
 <style>
-    .container{
-        background-color: rgb(149, 219, 235);
+
+    .body{
+        background-color: #CECECE;
+    }
+
+    .head-container{
+        width: 400px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 150px;
-        width: 500px;
-        height: 500px;
-        border-radius: 55px;
-        padding: 5px;
+        display: flexbox;      
+    }
+
+    .foryo-img{
+        display: block;
+        height: 70px;
+        border-radius: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .img-heading{
+        text-align: center;
+        font-family:'courier';
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    .card-container{
+        background-color: white;
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+        height: 400px;
+        border-radius: 5px;    
+        border: 1px solid black;
     }
 
     .heading{
-        text-align: center;
+        text-align: left;
+        margin-left: 20px;
+        font-size: 25px;
+        font-weight: 500;
+        font-family: 'Georgia';
+    }
+
+    .username-text{
+        font-family: verdana;
+        margin-left: 50px;
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 45px;
+    }
+
+    .username-input{
+        font-family: verdana;
+        margin-left: 50px;
+        width:320px;
+        margin-top: -5px;
+        font-size: 18px;
+        border-radius: 5px;
+        border: 1px solid black;
+        box-shadow: 3px 3px 3px 0px;
+    }
+
+    .password-input{
+        font-family: verdana;
+        margin-left: 50px;
+        width:320px;
+        margin-top: -5px;
+        font-size: 18px;
+        border-radius: 5px;
+        border: 1px solid black;
+        box-shadow: 3px 3px 3px 0px;
+    }
+
+    .submit-btn{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+        font-size: 18px;
+        font-family: verdana;
+        border-radius: 10px;
+        padding: 8px 15px;
+        box-shadow: 2px 2px 3px 0px;
     }
 
 </style>
 
-<body>
-    <div class="container">
-        <h1 class="heading">Log in</h1>
+<body class="body">
+
+    <div class="head-container">
+        <img src="https://media.istockphoto.com/id/483509751/vector/frozen-yogurt-graphic.jpg?s=612x612&w=0&k=20&c=lPR1k9p_1O8cX5LSyrNSYUZFgP_ySQ3yhO2m3VYu7HU=" class="foryo-img"/>
+        <p class="img-heading">Froyo's Fashion Store</p>
     </div>
+
+    <div class="card-container">
+        <p class="heading">Sign in</p>
+        <p class="username-text">Email or mobile number</p>
+        <input type="text" class="username-input"/>
+
+        <p class="username-text">Password</p>
+        <input type="password" class="password-input"/>
+
+        <button class="submit-btn">Login</button>
+
+    </div>
+
 </body>
 </html>
