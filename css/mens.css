@@ -21,11 +21,13 @@ body, h1, h2, h3, ul, li, p {
     padding: 20px;
     position: fixed;
     width: 100%;
-    height: 50px;
+    height: 70px;
   }
   
   header h1 {
     font-size: 25px;
+    text-align: center;
+
   }
   
   nav ul {
@@ -36,12 +38,18 @@ body, h1, h2, h3, ul, li, p {
   nav ul li {
     display: inline-block;
     margin-right: 10px;
+    margin-bottom: 20px;
   }
   
   nav ul li a {
-    color: rgb(247, 244, 244);
     text-decoration: none;
-    margin-left: 60px;
+    display: inline-block;
+    color: white;
+    margin: 15px;
+    border-radius: 5px 0px 5px 0px;
+    padding: 1px 3px 1px 3px;
+    font-size: 15px;
+    box-shadow: 0px 1px 4px 0.5px  #8c8c8c;
   }
   nav ul li :hover{
     color: rgb(48, 42, 54);
@@ -82,13 +90,9 @@ body, h1, h2, h3, ul, li, p {
     transition: 1s;
   }
   h2{
-    font-size: 36px;
-    margin-left: 49px;
+    font-size: 36;
+    text-align: center;
   }
-  p{
-
-  }
-  
   /* Products styles */
   .contener {
        display: flex;
@@ -144,3 +148,59 @@ body, h1, h2, h3, ul, li, p {
     text-align: center;
     padding: 10px;
   }
+
+  /* media query for widts <= 1024px */
+  @media screen and (max-width: 991px){
+  header{
+    width: 100%;
+    height: 80px;
+  }
+  header h1 {
+    font-size: 20px;
+  }
+  nav ul li{
+    flex-direction: column;
+  }
+  nav ul li a {
+    color: rgb(247, 244, 244);
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 3px;
+    font-size: 15px;}
+  img {
+    width: 100%;
+    height: 150px;
+    margin-top: 120px;
+  }
+  #banner h2 {
+    font-size: 25px;
+    margin-bottom: 18px;
+    margin-left: 20px;
+  }
+  .btn {
+    display: inline-block;
+    background-color: rgb(46, 44, 45);
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+  }
+  h2{
+    font-size: 28px;
+    margin-left: 35px;
+  }
+
+  .container{
+      flex-direction: column;
+
+  }
+  .grid-container{
+    width: 100%;
+    padding-inline: 12px ;
+    grid-row: span 1;
+    grid-template-columns: auto auto;
+  }
+  .product img{
+    width: 250px;
+    height: 250px;
+  }
+}
