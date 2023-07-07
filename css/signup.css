@@ -1,0 +1,132 @@
+.body{
+    background-color: #CECECE;
+}
+
+.head-container{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flexbox;      
+}
+
+.foryo-img{
+    display: block;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.foryo-img:hover{
+    display: block;
+    width: 80px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-heading{
+    text-align: center;
+    font-family:'courier';
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.card-container{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 480px;
+    border-radius: 5px;    
+    border: 1px solid black;
+}
+
+.heading{
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'verdana';
+}
+
+.username-text{
+    font-family: verdana;
+    margin-left: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 25px;
+}
+
+.username-input{
+    font-family: verdana;
+    margin-left: 40px;
+    width:280px;
+    margin-top: -5px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px 0px;
+}
+
+.username-input:hover{
+    font-family: verdana;
+    margin-left: 40px;
+    width:280px;
+    margin-top: -5px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 5px 0px;
+}
+
+.password-input{
+    font-family: verdana;
+    margin-left: 40px;
+    width:280px;
+    margin-top: -5px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px 0px;
+}
+
+.password-input:hover{
+    font-family: verdana;
+    margin-left: 40px;
+    width:280px;
+    margin-top: -5px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 5px 0px;
+}
+
+.submit-btn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    font-size: 18px;
+    font-family: verdana;
+    border-radius: 12px;
+    padding: 8px 25px;
+    box-shadow: 2px 2px 3px 0px;
+    background-color: #f2f2f2;  
+}
+
+.submit-btn:hover{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    font-size: 18px;
+    font-family: verdana;
+    border-radius: 12px;
+    padding: 8px 25px;
+    box-shadow: 2px 2px 3px 0px;
+    background-color: #b0a5a5; 
+    border-radius: 12px solid black;
+}
+
