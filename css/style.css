@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 .h1 {
+=======
+body{
+    background-color: #ffaa00;
+}
+.h1{
+>>>>>>> 9b017f1a5d2d59f766eea27b78fd752b94fd1a49
     background-color: aqua;
     font-style: initial;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -103,6 +110,7 @@ img {
 h2 {
     font-size: 36px;
     margin-left: 70px;
+<<<<<<< HEAD
 }
 
 p {}
@@ -128,6 +136,19 @@ p {}
 }
 
 .product:hover {
+=======
+  }
+
+  
+  /* Products styles */
+  .contener {
+       display: flex;
+       flex-direction: row;
+       justify-content:space-evenly;
+
+  }
+  .product:hover{
+>>>>>>> 9b017f1a5d2d59f766eea27b78fd752b94fd1a49
     box-shadow: 0 0 10px #888;
 }
 
@@ -167,4 +188,10 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px;
+<<<<<<< HEAD
 }
+=======
+  }
+
+  
+>>>>>>> 9b017f1a5d2d59f766eea27b78fd752b94fd1a49
