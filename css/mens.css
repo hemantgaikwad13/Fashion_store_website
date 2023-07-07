@@ -93,6 +93,8 @@ body, h1, h2, h3, ul, li, p {
     font-size: 36;
     text-align: center;
   }
+ 
+  
   /* Products styles */
   .contener {
        display: flex;
