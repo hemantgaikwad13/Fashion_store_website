@@ -1,11 +1,10 @@
-.h1 {
-    background-color: aqua;
+h1 {
     font-style: initial;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
-/* Men's fashion wab page css */
+/* Women's fashion web page css */
 
 body,
 h1,
@@ -36,12 +35,14 @@ header {
     color: rgb(238, 230, 230);
     padding: 20px;
     position: fixed;
-    width: 1310px;
+    width: 1360px;
     height: 50px;
 }
 
 header h1 {
     font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
 }
 
 nav ul {
@@ -66,30 +67,24 @@ nav ul li :hover {
 }
 
 img {
-    height: 300px;
-    width: 1310px;
-    margin-top: 90px;
+    height: 350px;
+    width: 1360px;
+    margin-top: 91px;
+    border: 1px solid black;
     box-shadow: 1px 2px 3px 2px #CECECE;
 }
-
-
-/* Banner styles */
 
 #banner {
     text-align: center;
     padding: 20px 0;
 }
 
-#banner h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-    margin-top: 1px;
-}
-
 .btn {
     display: inline-block;
     background-color: rgb(46, 44, 45);
     color: #fff;
+    font-size: 25px;
+    text-align: center;
     padding: 10px 20px;
     text-decoration: none;
 }
@@ -104,11 +99,6 @@ h2 {
     font-size: 36px;
     margin-left: 70px;
 }
-
-p {}
-
-
-/* Products styles */
 
 .contener {
     display: flex;
@@ -157,14 +147,4 @@ p {}
 
 .product a {
     margin-bottom: 5px;
-}
-
-
-/* Footer styles */
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
 }
