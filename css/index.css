@@ -1,5 +1,5 @@
 header {
-    background-color:rgb(81, 169, 175);
+    background-color:rgb(11, 20, 20);
     color: rgb(238, 230, 230);
     padding: 20px;
     position: fixed;
@@ -8,6 +8,11 @@ header {
   }
   
   header h1 {
+    font-size: 25px;
+  }
+  a{
+    text-decoration: none;
+    color: black;
     font-size: 25px;
   }
   
@@ -74,7 +79,7 @@ body{
 
 .discount_poster{
 margin-top: 10px;
-width: 100px;
+width: 100%;
 }
 .grid-container {
 padding: 10px;
