@@ -1,10 +1,10 @@
 header {
     background-color:rgb(11, 20, 20);
     color: rgb(238, 230, 230);
-    padding: 20px;
+    padding: 15px;
     position: fixed;
     width: 100%;
-    height: 70px;
+   
   }
   
   header h1 {
@@ -18,15 +18,14 @@ header {
   }
   
   .center{
-    text-align: center;
-  }
+    text-align: center;  }
   
 
     .link{
     text-decoration: none;
     display: inline-block;
     color: white;
-    margin: 10px;
+    margin: 15px;
     padding: 1px 3px 1px 3px;
     font-size: 25px;
    
@@ -44,12 +43,16 @@ header {
 
 body{
     margin: 0 ;
+    font-family: Arial, sans-serif;
+    background-color: #CECECE;
+    color: #333;
+
 }
 
 .img_discount{
             width: 100%;
             height: 400px;
-            margin-top: 120px;
+            margin-top: 140px;
         }
 
  /* Products styles */
@@ -83,6 +86,7 @@ body{
 .discount_poster{
 margin-top: 10px;
 width: 100%;
+height: 500px;
 }
 .grid-container {
 padding: 10px;
@@ -156,8 +160,9 @@ footer {
     display: block;
     height: 150px;
     border-radius: 50%;
-    padding: 25px;
+    padding: 20px;
     margin-right: auto;
+    margin-left: auto;
    }
 
   .column {
@@ -173,6 +178,7 @@ footer {
     text-align: center;
     color: white;
     font-size: 1.4em;
+  
     
   }
 
@@ -316,6 +322,8 @@ footer {
     }
     .foryo-img{
       height: 100px;
+      width: 100px;
       padding: 10px
+      display
     }
   }
