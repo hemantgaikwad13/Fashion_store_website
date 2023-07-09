@@ -18,6 +18,13 @@ body{
     box-shadow: 6px 8px 10px black;
 }
 
+img{
+  height: 400px;
+  width: 100%;
+  margin-top: 0px ;
+  box-shadow: 5px 8px 10px white;
+}
+
 .img-container{
     height:200px;
     width:250px;
