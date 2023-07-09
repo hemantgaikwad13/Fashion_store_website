@@ -3,7 +3,7 @@
     font-style: initial;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
-    /* Men's fashion wab page css */
+    
     
     body, h1, h2, h3, ul, li, p {
     margin: 0;
@@ -16,7 +16,7 @@
     line-height: 1.5;
     }
     
-    /* Header styles */
+   
     
     header {
     background-color:rgb(81, 169, 175);
