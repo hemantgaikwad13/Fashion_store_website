@@ -35,7 +35,7 @@ body, h1, h2, h3, ul, li, p {
     
   }
   
-  nav ul li {
+   ul li {
     display: inline-block;
     margin-right: 10px;
     margin-bottom: 20px;
@@ -150,12 +150,116 @@ body, h1, h2, h3, ul, li, p {
     text-align: center;
     padding: 10px;
   }
+  footer * {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+  }
+
+
+  .row {
+    padding: 1em 1em;
+  }
+
+
+  .row.primary {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    align-items: stretch;
+  }
+
+  .foryo-img{
+
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    padding: 25px;
+    margin-left: 80px;
+   }
+
+  .column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 2em;
+    min-height: 15em;
+  }
+
+  .h3 {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 1.4em;
+    
+  }
+
+
+  .ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+
+  .li:not(:first-child) {
+    margin-top: 0.8em;
+  }
+
+  .ul li a {
+    color: #a7a7a7;
+    text-decoration: none;
+  }
+
+  .ul li a:hover {
+    color: #2a8ded;
+  }
+
+  .about p {
+    text-align: justify;
+    line-height: 2;
+    margin: 0;
+  }
+
+  input,button {
+    font-size: 1em;
+    padding: 1em;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .button {
+    margin-top: 5px;
+    width: 150px;
+    background-color: rgb(70, 124, 126);
+    color: rgb(29, 20, 20);
+  }
+  
+  
+  .footer-menu{
+    float: left;
+      margin-top: 10px;
+  }
+  
+  .footer-menu a{
+    color: #cfd2d6;
+    padding: 6px;
+  
+    text-decoration: none;
+  }
+
+  .footer-menu a:hover{
+    color: #27bcda;
+  }
 
   /* media query for widts <= 1024px */
   @media screen and (max-width: 991px){
   header{
-    width: 100%;
-    height: 80px;
+    width: 120%;
+    height: 100px;
   }
   header h1 {
     font-size: 20px;
@@ -170,8 +274,8 @@ body, h1, h2, h3, ul, li, p {
     margin-top: 3px;
     font-size: 15px;}
   img {
-    width: 100%;
-    height: 150px;
+    width: 120%;
+    height: 170px;
     margin-top: 120px;
   }
   #banner h2 {
@@ -186,6 +290,7 @@ body, h1, h2, h3, ul, li, p {
     padding: 5px 10px;
     text-decoration: none;
   }
+  
   h2{
     font-size: 28px;
     margin-left: 35px;
@@ -204,5 +309,8 @@ body, h1, h2, h3, ul, li, p {
   .product img{
     width: 250px;
     height: 250px;
+  }
+  footer{
+    width: 120%;
   }
 }
