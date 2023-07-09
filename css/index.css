@@ -121,11 +121,15 @@ margin-bottom: 10px;
 .product a{
 margin-bottom: 5px;
 }
+<<<<<<< HEAD
+   /* footer */
+=======
 
 
 
 /* footer */
 
+>>>>>>> caad326a6fbd27d7c6228afb938dc1594de9b98e
 footer {
     background-color: #121315;
     color:white;
@@ -245,6 +249,9 @@ footer {
   
   }  
 
+<<<<<<< HEAD
+ 
+=======
   /* media query for width <= 991px */
   @media screen and (max-width: 991px){
     header{
@@ -319,3 +326,4 @@ footer {
       padding: 10px
     }
   }
+>>>>>>> caad326a6fbd27d7c6228afb938dc1594de9b98e
