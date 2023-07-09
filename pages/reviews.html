@@ -13,16 +13,28 @@
        {
          text-align: center;
         font-size: 50px;
-       margin-top: 20px;
+        margin: 50px;
+        padding: 10px;
+       }
+       .container
+       {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+       }
+       .review-cont
+       {
+        margin-top: 6%;
        }
        .review-slide
        {
         height: 400px;
-        width: 230px;
+        width: 260px;
         margin-left: 25px;
         margin-right: 25px;
         background-color: white;
-        border-radius: 10px;
+        border-radius: 5px;
         display:inline-block;
         justify-content: space-around;
        }
@@ -77,12 +89,64 @@
         color: black;
         cursor: pointer;
        }
-
+       .customer-cont
+       {
+        height:320px;
+        width:300p;
+        padding: 15px;
+        display: flex;
+        justify-content: space-around;
+       }
+       .customer-slide
+       {
+        height: 280px;
+        width:320px;
+        background-color:#f2f2f2;
+       }
+       .user-img
+       {
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+       margin-left: 110px;
+       margin-top: -32px;
+       }
+       .user-name
+       {
+        text-align: center;
+        margin-left: -8px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 600;
+      }
+      .star-img-cont
+      {
+        display: flex;
+        justify-content: center;   
+      }
+      .img-star
+      {
+        height: 20px;
+        width: 20px;
+        margin-left: 2px;
+      }
+      .feedback
+      {
+        padding-left: 15px;
+        padding-right: 15px;
+        color: black;
+      }
+      .bad-feedback
+      {
+        color: red;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
      </style>
     
 </head>
 <body>
-   <h1 class="review-heading">Latest Reviews</h1>
+   <u><h1 class="review-heading">Latest Reviews</h1></u>
+   <div class="container review-cont">
     <div class="review-slide">
         <img src="./../images/review pg img/img1.jpeg">
         <hr>
@@ -92,10 +156,10 @@
         <img src="./../images/review pg img/star.png" class="star-img">
         <img src="./../images/review pg img/star.png" class="star-img">
         <img src="./../images/review pg img/star outline.png" class="star-img">
-         <p class="text">(250 Review)</p> 
+         <p class="text">(180 Review)</p> 
          <p class="clothes">Man's Clothing</p>
          <p class="collection">$15.99</p> 
-         <a href="#" class="btn">Add To Card</a>  
+         <a href="latest.html" class="btn">Add To Card</a>  
     </div>
     </div>
     
@@ -138,12 +202,178 @@
     <img src="./../images/review pg img/star.png" class="star-img">
     <img src="./../images/review pg img/star.png" class="star-img">
     <img src="./../images/review pg img/star outline.png" class="star-img">
-    <p class="text">(250 Reviews)</p>
+    <p class="text">(100 Reviews)</p>
     <p class="clothes">Woman's Clothing</p>    
     <p class="collection">$15.99</p>
    <a href="#" class="btn">Add To Card</a>
 </div>   
 </div>
-   
+</div>
+<div class="container review-cont">
+<div class="review-slide">
+  <img src="./../images/men fashoin image/pants sample 2.jpg">
+  <hr>
+  <div class="box">
+  <img src="./../images/review pg img/star.png" class="star-img">
+  <img src="./../images/review pg img/star.png" class="star-img">
+  <img src="./../images/review pg img/star.png" class="star-img">
+  <img src="./../images/review pg img/star.png" class="star-img">
+  <img src="./../images/review pg img/star outline.png" class="star-img">
+  <p class="text">(190 Reviews)</p> 
+  <p class="clothes">Man's Clothing</p>  
+  <p class="collection">$15.99</p>
+  <a href="#" class="btn">Add To Card</a>  
+</div>  
+</div>
+<div class="review-slide">
+  <img src="./../images/review pg img/skrit.jpg">
+  <hr>
+  <div class="box">
+  <img src="./../images/review pg img/star.png" class="star-img">
+  <img src="./../images/review pg img/star.png" class="star-img">
+  <img src="./../images/review pg img/star.png" class="star-img">
+  <img src="./../images/review pg img/star.png" class="star-img">
+  <img src="./../images/review pg img/star outline.png" class="star-img">
+  <p class="text">(220 Reviews)</p> 
+  <p class="clothes">Woman's Clothing</p>  
+  <p class="collection">$15.99</p>
+  <a href="#" class="btn">Add To Card</a>  
+</div>  
+</div>
+<div class="review-slide">
+  <img src="./../images/review pg img/jeans..jpg">
+  <hr>
+  <div class="box">
+  <img src="./../images/review pg img/star.png" class="star-img">
+  <img src="./../images/review pg img/star.png" class="star-img">
+  <img src="./../images/review pg img/star.png" class="star-img">
+  <img src="./../images/review pg img/star.png" class="star-img">
+  <img src="./../images/review pg img/star outline.png" class="star-img">
+  <p class="text">(250 Reviews)</p> 
+  <p class="clothes">Woman's Clothing</p>  
+  <p class="collection">$15.99</p>
+  <a href="#" class="btn">Add To Card</a>  
+</div>  
+</div>
+<div class="review-slide">
+  <img src="./../images/review pg img/formal....jpg">
+  <hr>
+  <div class="box">
+  <img src="./../images/review pg img/star.png" class="star-img">
+  <img src="./../images/review pg img/star.png" class="star-img">
+  <img src="./../images/review pg img/star.png" class="star-img">
+  <img src="./../images/review pg img/star.png" class="star-img">
+  <img src="./../images/review pg img/star outline.png" class="star-img">
+  <p class="text">(240 Reviews)</p> 
+  <p class="clothes">Man's Shoes</p>  
+  <p class="collection">$15.99</p>
+  <a href="#" class="btn">Add To Card</a>  
+</div>  
+</div>
+</div>
+<u><h1 class="review-heading">Customer's Reviews</h1></u>
+<div class="customer-cont">
+  <div class="customer-slide">
+<img src="./../images/review pg img/customer1.jpg" class="user-img">
+<p class="user-name">Shruti Patil</p>
+<div class="star-img-cont">
+<img src="./../images/review pg img/star.png" class="img-star">
+<img src="./../images/review pg img/star.png" class="img-star">
+<img src="./../images/review pg img/star.png" class="img-star">
+<img src="./../images/review pg img/star.png" class="img-star">
+<img src="./../images/review pg img/star.png" class="img-star">
+</div>
+<p class="feedback">
+  I love the way your website is done with the flip images 
+  and the catwalks. Makes it wonderful to shop online. 
+  Thank you. I'll be back again and again!
+</p>
+</div>
+<div class="customer-slide">
+  <img src="./../images/review pg img/customer2.jpg" class="user-img">
+  <p class="user-name">Kiran Mahara</p>
+  <div class="star-img-cont">
+  <img src="./../images/review pg img/star.png" class="img-star">
+  <img src="./../images/review pg img/star.png" class="img-star">
+  <img src="./../images/review pg img/star.png" class="img-star">
+  <img src="./../images/review pg img/star.png" class="img-star">
+  <img src="./../images/review pg img/star.png" class="img-star">
+  </div>
+  <p class="feedback">
+    I love the clothes from this website!! I am so glad I found 
+    them.....everything has been spot on, fits wonderfully, 
+    styles are trendy and lots to choose from!! Thanks for being 
+    here for us!!!
+  </p>
+  </div>
+  <div class="customer-slide">
+    <img src="./../images/review pg img/customer3.jpg" class="user-img">
+    <p class="user-name">Chetan meshram</p>
+    <div class="star-img-cont">
+    <img src="./../images/review pg img/star.png" class="img-star">
+    <img src="./../images/review pg img/star.png" class="img-star">
+    <img src="./../images/review pg img/star.png" class="img-star">
+    <img src="./../images/review pg img/star.png" class="img-star">
+    <img src="./../images/review pg img/star.png" class="img-star">
+    </div>
+    <p class="feedback">
+      Just received my order & am thrilled with everything 
+      I purchased! and the shipping was awesome it took 3 days
+       best yet! i will shop again thanks you.
+
+    </p>
+    </div>
+</div>
+<div class="customer-cont">
+  <div class="customer-slide">
+<img src="./../images/review pg img/customer4.jpg" class="user-img">
+<p class="user-name">Niharika Mhale</p>
+<div class="star-img-cont">
+<img src="./../images/review pg img/star.png" class="img-star">
+<img src="./../images/review pg img/star.png" class="img-star">
+<img src="./../images/review pg img/star.png" class="img-star">
+<img src="./../images/review pg img/star.png" class="img-star">
+<img src="./../images/review pg img/star.png" class="img-star">
+</div>
+<p class="feedback">
+  This is my very first order through site, and 
+  I am totally and completely satisfied! The fit is great
+   and so are the prices.I will definitely return again and again...
+</p>
+</div>
+<div class="customer-slide">
+  <img src="./../images/review pg img/customer5.jpg" class="user-img">
+  <p class="user-name">Rohit Maurya</p>
+  <div class="star-img-cont">
+  <img src="./../images/review pg img/star.png" class="img-star">
+  <img src="./../images/review pg img/star outline.png" class="img-star">
+  <img src="./../images/review pg img/star outline.png" class="img-star">
+  <img src="./../images/review pg img/star outline.png" class="img-star">
+  <img src="./../images/review pg img/star outline.png" class="img-star">
+  </div>
+   <p class="bad-feedback"> poor quality product... </p>
+   <p class="feedback">
+   I don't like the quality of the product and also product clothes 
+   material not good...plzz don't buy this product ......
+   </p>
+  </div>
+  <div class="customer-slide">
+    <img src="./../images/review pg img/customer6.jpg" class="user-img">
+    <p class="user-name">Arman Yadav</p>
+    <div class="star-img-cont">
+    <img src="./../images/review pg img/star.png" class="img-star">
+    <img src="./../images/review pg img/star.png" class="img-star">
+    <img src="./../images/review pg img/star.png" class="img-star">
+    <img src="./../images/review pg img/star.png" class="img-star">
+    <img src="./../images/review pg img/star.png" class="img-star">
+    </div>
+    <p class="feedback">
+     I completely love this site, found it on EBay at first now
+    I just order directly through them...I am always complemented 
+    on my outfits I will be back for more...Thank you for having 
+    cute trendy clothes that fit and look good.
+    </p>
+    </div>
+</div>
 </body>
 </html> 
