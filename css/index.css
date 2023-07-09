@@ -1,34 +1,41 @@
 header {
-    background-color:rgb(81, 169, 175);
+    background-color:rgb(11, 20, 20);
     color: rgb(238, 230, 230);
     padding: 20px;
     position: fixed;
     width: 100%;
-    height: 100px;
+    height: 70px;
   }
   
   header h1 {
-    font-size: 25px;
+    font-size: 20px;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+   
   }
   
   .center{
     text-align: center;
   }
+  
 
     .link{
     text-decoration: none;
     display: inline-block;
     color: white;
-    margin: 15px;
-    border-radius: 5px 0px 5px 0px;
+    margin: 10px;
     padding: 1px 3px 1px 3px;
     font-size: 25px;
-    box-shadow: 0px 1px 4px 0.5px  #8c8c8c;
+   
+    
     }
 
     .link:hover{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     border-radius: 3px;
     padding: 2px 4px 2px 4px;
     transition: 1s;
@@ -41,8 +48,8 @@ body{
 
 .img_discount{
             width: 100%;
-            height: 500px;
-            margin-top: 100px;
+            height: 400px;
+            margin-top: 120px;
         }
 
  /* Products styles */
@@ -73,8 +80,9 @@ body{
     transition: 1s;
 }
 
-#p{
+.discount_poster{
 margin-top: 10px;
+width: 100%;
 }
 .grid-container {
 padding: 10px;
@@ -114,3 +122,200 @@ margin-bottom: 10px;
 margin-bottom: 5px;
 }
 
+
+
+/* footer */
+
+footer {
+    background-color: #121315;
+    color:white;
+    font-size: 16px;
+  }
+
+  
+  footer * {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+  }
+
+
+  .row {
+    padding: 1em 1em;
+  }
+
+
+  .row.primary {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    align-items: stretch;
+  }
+
+  .foryo-img{
+    display: block;
+    height: 150px;
+    border-radius: 50%;
+    padding: 25px;
+    margin-right: auto;
+   }
+
+  .column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 2em;
+    min-height: 15em;
+  }
+
+  h3 {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 1.4em;
+    
+  }
+
+
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+
+  li:not(:first-child) {
+    margin-top: 0.8em;
+  }
+
+  ul li a {
+    color: #a7a7a7;
+    text-decoration: none;
+  }
+
+  ul li a:hover {
+    color: #2a8ded;
+  }
+
+  .about p {
+    text-align: justify;
+    line-height: 2;
+    margin: 0;
+  }
+
+  input,button {
+    font-size: 1em;
+    padding: 1em;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+
+  button {
+    background-color: white;
+    color: black;
+  }
+  
+  
+  .footer-menu{
+    float: left;
+      margin-top: 10px;
+  }
+  
+  .footer-menu a{
+    color: #cfd2d6;
+    padding: 6px;
+  
+    text-decoration: none;
+  }
+
+  .footer-menu a:hover{
+    color: #27bcda;
+  }
+  
+  .p{
+      color: #cfd2d6;
+  }
+  
+  @media screen and (max-width: 850px) {
+    .row.primary {
+      grid-template-columns: 1fr;
+    }
+  
+  }  
+
+  /* media query for width <= 991px */
+  @media screen and (max-width: 991px){
+    header{
+      width: 100%;
+      height: 80px;
+    }
+    header h1 {
+      font-size: 15px;
+    }
+    nav {
+      flex-direction: column;
+    }
+    nav a {
+      color: rgb(247, 244, 244);
+      text-decoration: none;
+      margin-left: 10px;
+      margin-top: 3px;
+      font-size: 15px;}
+
+      .link{
+        flex-direction: column;
+        color: rgb(247, 244, 244);
+        text-decoration: none;
+        margin-left: 20px;
+        margin-top: 3px;
+        font-size: 15px;
+      }
+    img {
+      width: 100%;
+      height: 150px;
+      margin-top: 120px;
+    }
+    #banner h2 {
+      font-size: 25px;
+      margin-bottom: 18px;
+      margin-left: 20px;
+    }
+    .img_discount {
+      height: 200px;
+    }
+    .discount_poster{
+      height: 200px;
+    }
+    .btn {
+      display: inline-block;
+      background-color: rgb(46, 44, 45);
+      color: #fff;
+      padding: 5px 10px;
+      text-decoration: none;
+    }
+    h2{
+      font-size: 28px;
+      margin-left: 35px;
+    }
+  
+    .container{
+        flex-direction: column;
+  
+    }
+    .grid-container{
+      width: 100%;
+      padding-inline: 12px ;
+      grid-row: span 1;
+      grid-template-columns: auto auto;
+    }
+    .product img{
+      width: 250px;
+      height: 250px;
+    }
+    .foryo-img{
+      height: 100px;
+      padding: 10px
+    }
+  }

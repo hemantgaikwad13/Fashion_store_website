@@ -1,3 +1,7 @@
+.banner{
+    margin-top: 50px;
+}
+
 body{
     background-color: #CECECE;
 }
@@ -274,14 +278,14 @@ line-height: 1.5;
 
 /* Header styles */
 
-header {
+.navbar{
 background-color:rgb(81, 169, 175);
 color: rgb(238, 230, 230);
 padding: 20px;
 
 width: 1860px;
 height: 50px;
-margin-top: 0px;
+
 position: fixed;
 }
 
@@ -314,4 +318,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px;
+  }
+  .nav{
+    margin-top: 0px;
   }
