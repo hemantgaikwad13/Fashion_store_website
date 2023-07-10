@@ -1,0 +1,409 @@
+/*
+.banner{
+    margin-top: 50px;
+}
+
+body{
+    background-color: #CECECE;
+}
+.img1{
+    margin-left: 100px;
+   
+
+}
+
+.heading {
+    margin-top: 15px;
+    margin-left: 850px;
+    font-size: 50px;
+    font-family: serif;
+    font-size: ;
+
+}
+
+.categories {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.boysimg {
+    display: inline-block;
+    border: 3px solid black;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 400px;
+    margin-top: 30px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS21yIWMj3p0G35IoemUuf9jRl19xa6O9E-4A&usqp=CAU");
+    background-size: cover;
+
+
+
+}
+
+.girlsimg {
+    display: inline-block;
+    border: 3px solid black;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 450px;
+    margin-top: 30px;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6SoEyRwBxx_0JyWQgL3QFoZs0DVyt44CJaw&usqp=CAU") ;
+    background-size: cover;
+}
+
+.text-boys {
+    display: inline-block;
+    margin-left: 500px;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text-girls {
+    display: inline-block;
+    margin-left: 700px;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.div-tshirts {
+    display: inline-block;
+    border: 3px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 330px;
+    margin-top: 30px;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe0DkdhqxOrtAwmDepqfO1rHkcOIC_SRC1uA&usqp=CAU") ;
+    background-size: cover;
+}
+
+.div-jeans {
+    display: inline-block;
+    border: 3px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 30px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBGVRCMgtUse4rsMrltTKrjiC8YLOMeln3pQ&usqp=CAU");
+    background-size: cover;
+}
+
+.div-dresses {
+    display: inline-block;
+    border: 3px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 270px;
+    margin-top: 30px;
+    background-image:url("https://images.meesho.com/images/products/221177966/8pwcl_512.webp") ;
+    background-size: cover;
+}
+
+.div-skirts {
+    display: inline-block;
+    border: 3px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 50px;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrSFiiVVO8GnuhhPTdTazbLHfNND84uJuxSw&usqp=CAU") ;
+    background-size: cover;
+}
+
+#text-tshirts {
+    display: inline-block;
+
+    margin-left: 390px;
+    font-size: 30px;
+    text-decoration: none;
+     color:black;
+
+}
+
+#text-jeans {
+    display: inline-block;
+
+    margin-left: 150px;
+    font-size: 30px;
+    text-decoration: none;
+     color:black;
+
+}
+
+#text-dresses {
+    display: inline-block;
+
+    margin-left: 360px;
+    font-size: 30px;
+    text-decoration: none;
+     color:black;
+
+}
+
+#text-skirts {
+    display: inline-block;
+
+    margin-left: 150px;
+    font-size: 30px;
+    text-decoration: none;
+     color:black;
+
+}
+
+.div-formalshirts {
+    display: inline-block;
+    border: 3px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 330px;
+    margin-top: 50px;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHpuC49R3QeCzhW0Or5mf03bV_2ZVy_B9WFg&usqp=CAU");
+    background-size: cover;
+
+}
+
+.div-boystraditional {
+    display: inline-block;
+    border: 3px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: gray;
+    background-image: url("https://www.babycouture.in/blog/wp-content/uploads/2020/03/Kurta-and-Salwar-set.jpg");
+    background-size: cover;
+
+}
+
+.div-girlstraditional {
+    display: inline-block;
+    border: 3px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 270px;
+    margin-top: 50px;
+    background-image:url("https://i.pinimg.com/736x/30/ea/1e/30ea1ea8df671c7b82ed4d41a6913a6d.jpg") ;
+    background-size: cover;
+
+}
+
+.div-western {
+    display: inline-block;
+    border: 3px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 50px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmjbzNDA4fL5ZY5GJbEpo1HI92VFAWmlgLKg&usqp=CAU");
+    background-size: cover;
+
+}
+
+.text-formalshirts {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    margin-left: 360px;
+    font-size: 30px;
+    text-decoration: none;
+     color:black;
+    
+
+}
+
+.text-girlstraditional {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    margin-left: 220px;
+    font-size: 30px;
+    text-decoration: none;
+     color:black;
+
+}
+
+.text-boystraditional {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+    font-size: 30px;
+    text-decoration: none;
+     color:black;
+
+}
+
+.text-western {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    margin-left: 5px;
+    font-size: 30px;
+    text-decoration: none;
+     color:black;
+
+}
+.text:hover{
+    color: blue;
+    font-size: 30px;
+}
+
+
+.h1{
+background-color: aqua;
+font-style: initial;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}*/
+/* Men's fashion wab page css */
+
+body, h1, h2, h3, ul, li, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #CECECE;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  /* Header styles */
+
+  header {
+    background-color:rgb(81, 169, 175);
+    color: rgb(238, 230, 230);
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+  }
+  
+  header h1 {
+    font-size: 25px;
+    text-align: center;
+
+  }
+  
+  nav ul {
+    list-style-type: none;
+    
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    margin: 15px;
+    border-radius: 5px 0px 5px 0px;
+    padding: 1px 3px 1px 3px;
+    font-size: 15px;
+    box-shadow: 0px 1px 4px 0.5px  #8c8c8c;
+  }
+  nav ul li :hover{
+    color: rgb(48, 42, 54);
+    transition: 1s;
+    font-style: initial;
+  }
+
+  img{
+      height: 600px;
+      width: 100%;
+      margin-top: 90px ;
+      box-shadow: 1px 2px 3px 2px #CECECE;
+  }
+   /* Banner styles */
+   #banner {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  #banner h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-top: 1px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: rgb(46, 44, 45);
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+  
+  }
+  .btn:hover{
+    background-color: #967BB6;
+    color: #43302E;
+    transition: 1s;
+  }
+  h2{
+    font-size: 50px;
+    text-align: center;
+  }
+ 
+  
+  /* Products styles */
+  .contener {
+       display: flex;
+       flex-direction: row;
+       justify-content:space-evenly
+
+  }
+  #p{
+    margin-top: 10px;
+  }
+  .grid-container {
+    padding: 10px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto auto auto;
+   
+  }
+  .product:hover{
+    box-shadow: 0 0 10px #888;
+  }
+  
+  .product {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 30px;
+  }
+  
+  .product img {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+    margin-top: 2px;
+    margin-left:2px;
+    margin-right:2px ;
+  }
+  
+  .product h3 {
+    font-size: 18px;
+  }
+  
+  .product p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .product a{
+    margin-bottom: 5px;
+  }
