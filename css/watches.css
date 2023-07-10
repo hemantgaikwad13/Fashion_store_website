@@ -1,0 +1,14 @@
+body{
+    background-color:#b0aeab;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+}
+.container{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvjDxibnVk2xZkFkcpCj_NHwR9tTJ525b7_w&usqp=CAU); 
+    background-size: 1025px 400px;
+    height: 400px;
+}
+h1{
+    color: rgb(15, 29, 75);
+    margin-left: 30px;
+}
