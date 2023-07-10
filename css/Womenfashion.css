@@ -1,0 +1,166 @@
+h1 {
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* Women's fashion web page css */
+
+body,
+h1,
+h2,
+h3,
+ul,
+li,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Body styles */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #CECECE;
+    color: #333;
+    line-height: 1.5;
+}
+
+
+/* Header styles */
+
+header {
+    background-color: rgb(81, 169, 175);
+    color: rgb(238, 230, 230);
+    padding: 20px;
+    position: fixed;
+    width: 1360px;
+    height: 50px;
+}
+
+header h1 {
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: rgb(247, 244, 244);
+    text-decoration: none;
+    margin-left: 60px;
+}
+
+nav ul li :hover {
+    color: rgb(48, 42, 54);
+    transition: 1s;
+    font-style: initial;
+}
+
+img {
+    height: 350px;
+    width: 1360px;
+    margin-top: 91px;
+    border: 1px solid black;
+    box-shadow: 1px 2px 3px 2px #CECECE;
+}
+
+#banner {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: rgb(46, 44, 45);
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #967BB6;
+    color: #43302E;
+    transition: 1s;
+}
+
+h2 {
+    font-size: 36px;
+    margin-left: 70px;
+}
+
+.contener {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+
+#p {
+    margin-top: 10px;
+}
+
+.grid-container {
+    padding: 10px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto auto auto;
+}
+
+.product:hover {
+    box-shadow: 0 0 5px 5px #00ccff;
+}
+
+.product {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.product img {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.product img:hover {
+    border-color: #009999;
+    border-width: 5px;
+    box-shadow: 1px 3px 1px 2px blanchedalmond;
+    border-radius: 5px;
+}
+
+.product h3 {
+    font-size: 18px;
+}
+
+.product p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.product a {
+    margin-bottom: 5px;
+}
+
+.footer {
+    background-color: cadetblue;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    margin: 0px
+}

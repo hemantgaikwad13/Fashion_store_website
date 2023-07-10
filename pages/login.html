@@ -4,27 +4,31 @@
     <title>Login</title>
 </head>
 
-<style>
-    .container{
-        background-color: rgb(149, 219, 235);
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 150px;
-        width: 500px;
-        height: 500px;
-        border-radius: 55px;
-        padding: 5px;
-    }
+<link rel="stylesheet" href="./../css/login.css">
 
-    .heading{
-        text-align: center;
-    }
+<body class="body">
 
-</style>
-
-<body>
-    <div class="container">
-        <h1 class="heading">Log in</h1>
+    <div class="head-container">
+        <img src="https://media.istockphoto.com/id/483509751/vector/frozen-yogurt-graphic.jpg?s=612x612&w=0&k=20&c=lPR1k9p_1O8cX5LSyrNSYUZFgP_ySQ3yhO2m3VYu7HU=" class="foryo-img"/>
+        <p class="img-heading">Froyo's Fashion Store</p>
     </div>
+
+    <div class="card-container">
+        <p class="heading">Sign in</p>
+        <p class="username-text">Email or mobile number</p>
+        <input type="text email" class="username-input" required/>
+
+        <p class="username-text">Password</p>
+        <input type="password" class="password-input" required/>
+
+        <button class="submit-btn" type="submit">Login</button>
+
+    </div>
+
+    <div class="register-page">
+        <p class="new-cust-line">New to Fashion Store?</p>
+        <a href="signup.html" class="link">Sign Up</a>
+    </div>
+
 </body>
 </html>
