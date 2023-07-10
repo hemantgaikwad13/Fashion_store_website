@@ -1,154 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
+  <link rel="stylesheet" href="./../css/review.css">
+
     <title>review</title>
-     <style>
-       body
-       {
-        background-color: #b3b3b3;
-        margin: 0;
-       }
-       .review-heading
-       {
-         text-align: center;
-        font-size: 50px;
-        margin: 50px;
-        padding: 10px;
-       }
-       .container
-       {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        width: 100%;
-       }
-       .review-cont
-       {
-        margin-top: 6%;
-       }
-       .review-slide
-       {
-        height: 400px;
-        width: 260px;
-        margin-left: 25px;
-        margin-right: 25px;
-        background-color: white;
-        border-radius: 5px;
-        display:inline-block;
-        justify-content: space-around;
-       }
-       .box
-       {
-       padding-left: 10px;
-    }
-       .star-img
-       {
-        height: 20px;
-        width: 20px;
-       margin-left: -5px;
-       display:inline-block;
-       }
-       .text
-       {  
-        color: #8c8c8c;
-        font-family: sans-serif;
-        font-weight:545;
-        display: inline-block;
-       }
-       .clothes
-       {
-        font-size: 20px;
-        font-weight: 700;
-        color:#333333;
-        margin-top: -5px;
-       }
-       .collection
-       {
-        margin-top: -15px;
-        color:#ffa600;
-        font-weight: 700;
-        font-size:20px ;
-       }
-       .btn
-       {
-        border: 1px solid black;
-        background-color:#333333;
-        color: azure;
-        border-radius: 25px;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 6px;
-        padding-bottom: 6px;
-        text-decoration: none;
-       } 
-       .btn:hover
-       {
-        background-color: white;
-        border: 2px solid black;
-        color: black;
-        cursor: pointer;
-       }
-       .customer-cont
-       {
-        height:320px;
-        width:300p;
-        padding: 15px;
-        display: flex;
-        justify-content: space-around;
-       }
-       .customer-slide
-       {
-        height: 280px;
-        width:320px;
-        background-color:#f2f2f2;
-       }
-       .user-img
-       {
-        height: 80px;
-        width: 80px;
-        border-radius: 50%;
-       margin-left: 110px;
-       margin-top: -32px;
-       }
-       .user-name
-       {
-        text-align: center;
-        margin-left: -8px;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-weight: 600;
-      }
-      .star-img-cont
-      {
-        display: flex;
-        justify-content: center;   
-      }
-      .img-star
-      {
-        height: 20px;
-        width: 20px;
-        margin-left: 2px;
-      }
-      .feedback
-      {
-        padding-left: 15px;
-        padding-right: 15px;
-        color: black;
-      }
-      .bad-feedback
-      {
-        color: red;
-        padding-left: 15px;
-        padding-right: 15px;
-      }
-     </style>
-    
 </head>
 <body>
+
+  <header>
+    <h1 class="center">Welcome to Froyo's Fashion Store</h1>
+    <nav class="navbar-center">
+        <a href="./../index.html"             class="link">Home         </a>
+        <a href="./womens.html"      class="link">Women's wear </a>
+        <a href="./mens.html"        class="link">Men's Wear   </a>
+        <a href="./kids.html"        class="link">Kids wear    </a>
+        <a href="./footwear.html"    class="link">Footwear     </a>
+        <a href="./accessories.html" class="link">Accessories  </a>
+        <a href="./onsale.html"      class="link">On sale      </a>
+        <a href="./reviews.html"     class="link">Reviews      </a>
+        <a href="./login.html"       class="link">Login        </a>
+        
+      </nav>
+</header>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
    <u><h1 class="review-heading">Latest Reviews</h1></u>
    <div class="container review-cont">
-    <div class="review-slide">
-        <img src="./../images/review pg img/img1.jpeg">
+    <div class="review-slide slide">
+       <img src="./../images/review pg img/img1.jpeg">
         <hr>
         <div class="box">
         <img src="./../images/review pg img/star.png" class="star-img">
@@ -163,7 +46,7 @@
     </div>
     </div>
     
-    <div class="review-slide">
+    <div class="review-slide slide">
         <img src="./../images/review pg img/img2.jpeg">
         <hr>
         <div class="box">
@@ -178,7 +61,7 @@
         <a href="#" class="btn">Add To Card</a> 
     </div>
     </div>
-   <div class="review-slide">
+   <div class="review-slide slide">
     <img src="./../images/review pg img/img3.jpeg">
     <hr>
     <div class="box">
@@ -193,7 +76,7 @@
     <a href="#" class="btn">Add To Card</a>  
 </div>  
 </div>
-   <div class="review-slide" >
+   <div class="review-slide slide" >
     <img src="./../images/review pg img/img4.jpeg" id="img">
     <hr>
     <div class="box">
@@ -210,7 +93,7 @@
 </div>
 </div>
 <div class="container review-cont">
-<div class="review-slide">
+<div class="review-slide slide">
   <img src="./../images/men fashoin image/pants sample 2.jpg">
   <hr>
   <div class="box">
@@ -225,7 +108,7 @@
   <a href="#" class="btn">Add To Card</a>  
 </div>  
 </div>
-<div class="review-slide">
+<div class="review-slide slide">
   <img src="./../images/review pg img/skrit.jpg">
   <hr>
   <div class="box">
@@ -237,10 +120,10 @@
   <p class="text">(220 Reviews)</p> 
   <p class="clothes">Woman's Clothing</p>  
   <p class="collection">$15.99</p>
-  <a href="#" class="btn">Add To Card</a>  
+  <a href="latest review.html" class="btn">Add To Card</a>  
 </div>  
 </div>
-<div class="review-slide">
+<div class="review-slide slide">
   <img src="./../images/review pg img/jeans..jpg">
   <hr>
   <div class="box">
@@ -255,7 +138,7 @@
   <a href="#" class="btn">Add To Card</a>  
 </div>  
 </div>
-<div class="review-slide">
+<div class="review-slide slide">
   <img src="./../images/review pg img/formal....jpg">
   <hr>
   <div class="box">
@@ -272,7 +155,7 @@
 </div>
 </div>
 <div class="container review-cont">
-  <div class="review-slide">
+  <div class="review-slide slide">
       <img src="./../images/review pg img/girls bracelet.jpg">
       <hr>
       <div class="box">
@@ -284,11 +167,11 @@
        <p class="text">(300 Review)</p> 
        <p class="clothes">Girl's Bracelet</p>
        <p class="collection">$15.99</p> 
-       <a href="#" class="btn">Add To Card</a>  
+       <a href="latest bracelet review.html" class="btn">Add To Card</a>  
   </div>
   </div>
   
-  <div class="review-slide">
+  <div class="review-slide slide">
       <img src="./../images/review pg img/kids shoes.jpg">
       <hr>
       <div class="box">
@@ -303,7 +186,7 @@
       <a href="#" class="btn">Add To Card</a> 
   </div>
   </div>
- <div class="review-slide">
+ <div class="review-slide slide">
   <img src="./../images/review pg img/sandal.jpg">
   <hr>
   <div class="box">
@@ -318,7 +201,7 @@
   <a href="#" class="btn">Add To Card</a>  
 </div>  
 </div>
- <div class="review-slide" >
+ <div class="review-slide slide" >
   <img src="./../images/review pg img/boy footwear.jpg" id="img">
   <hr>
   <div class="box">
@@ -336,7 +219,7 @@
 </div>
 <u><h1 class="review-heading">Customer's Reviews</h1></u>
 <div class="customer-cont">
-  <div class="customer-slide">
+  <div class="customer-slide slide">
 <img src="./../images/review pg img/customer1.jpg" class="user-img">
 <p class="user-name">Shruti Patil</p>
 <div class="star-img-cont">
@@ -352,7 +235,7 @@
   Thank you. I'll be back again and again!
 </p>
 </div>
-<div class="customer-slide">
+<div class="customer-slide slide">
   <img src="./../images/review pg img/customer2.jpg" class="user-img">
   <p class="user-name">Kiran Mahara</p>
   <div class="star-img-cont">
@@ -369,7 +252,7 @@
     here for us!!!
   </p>
   </div>
-  <div class="customer-slide">
+  <div class="customer-slide slide">
     <img src="./../images/review pg img/customer3.jpg" class="user-img">
     <p class="user-name">Chetan meshram</p>
     <div class="star-img-cont">
@@ -388,7 +271,7 @@
     </div>
 </div>
 <div class="customer-cont">
-  <div class="customer-slide">
+  <div class="customer-slide slide">
 <img src="./../images/review pg img/customer4.jpg" class="user-img">
 <p class="user-name">Niharika Mhale</p>
 <div class="star-img-cont">
@@ -404,7 +287,7 @@
    and so are the prices.I will definitely return again and again...
 </p>
 </div>
-<div class="customer-slide">
+<div class="customer-slide slide">
   <img src="./../images/review pg img/customer5.jpg" class="user-img">
   <p class="user-name">Rohit Maurya</p>
   <div class="star-img-cont">
@@ -420,7 +303,7 @@
    material not good...plzz don't buy this product ......
    </p>
   </div>
-  <div class="customer-slide">
+  <div class="customer-slide slide">
     <img src="./../images/review pg img/customer6.jpg" class="user-img">
     <p class="user-name">Arman Yadav</p>
     <div class="star-img-cont">
@@ -439,7 +322,7 @@
     </div>
 </div>
 <div class="customer-cont">
-  <div class="customer-slide">
+  <div class="customer-slide slide">
 <img src="./../images/review pg img/customer7.jpg" class="user-img">
 <p class="user-name">Harsh Pathrabe</p>
 <div class="star-img-cont">
@@ -455,7 +338,7 @@
  onboard only high-quality supplier.......
 </p>
 </div>
-<div class="customer-slide">
+<div class="customer-slide slide">
   <img src="./../images/review pg img/customer8.jpg" class="user-img">
   <p class="user-name">Aakanksha parate</p>
   <div class="star-img-cont">
@@ -471,7 +354,7 @@
      now I'm a happy returning customer. 
   </p>
   </div>
-  <div class="customer-slide">
+  <div class="customer-slide slide">
     <img src="./../images/review pg img/customer9.webp" class="user-img">
     <p class="user-name">Chetu meshram</p>
     <div class="star-img-cont">
@@ -490,5 +373,85 @@
     </p>
     </div>
 </div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="row primary" >
+    <div class="column about">
+  
+    <h3>Froyo Fashion Store</h3>
+  
+     <p>
+      <img src="https://media.istockphoto.com/id/483509751/vector/frozen-yogurt-graphic.jpg?s=612x612&w=0&k=20&c=lPR1k9p_1O8cX5LSyrNSYUZFgP_ySQ3yhO2m3VYu7HU=" class="foryo-img"/>
+    </p>
+  
+    
+  </div>
+  
+  <div class="column links">
+  <h3>Some Links</h3>
+  
+   <ul>
+       <li>
+     <a href="#my-account">My Account</a>
+    </li>
+     <li>
+     <a href="#track-your-order">Track Your Order</a>
+    </li>
+     <li>
+     <a href="#ourstory">Our Story</a>
+    </li>
+     <li>
+     <a href="#faq">F.A.Q</a>
+    </li>
+  
+    <li>
+     <a href="#contactus">Contact Us</a>
+    </li>
+    <li>
+     <a href="#return-policy">Return Policy</a>
+    </li>
+    <li>
+     <a href="#terms-of-services">Terms Of Service</a>
+    </li>
+    <li>
+     <a href="#support">Support</a>
+    </li>
+     <li>
+     <a href="#privacy-policy">Privacy Policy</a>
+    </li> 
+   </ul>
+  
+  </div>
+  
+  <div class="column links">
+  <h3>Shop Online</h3>
+  
+  <ul>
+      <li><a href="./../index.html">Home</a></li>
+      <li><a href="mens.html">Mens Wear</a></li>
+      <li><a href="womens.html">Womens Wear</a></li>
+      <li><a href="kids.html">Kids Wear</a></li>
+      <li><a href="footwear.html">Footwear</a></li>
+      <li><a href="accessories.html">Accessories</a></li>
+      <li><a href="onsale.html">On Sale</a></li>
+      <li><a href="reviews.html">Reviews</a></li>
+    </ul>
+  
+  </div>
+  
+  
+  
+  <div class="column subscribe">
+   <h3>Connect With Us</h3>
+    <div>
+     <input type="email" placeholder="Your email id here"  class="input-box"/>
+     <button class="input-box">Subscribe</button>
+    </div>
+  
+  </div>
+  
+</footer>
+
 </body>
 </html> 
