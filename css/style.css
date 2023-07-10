@@ -1,0 +1,139 @@
+.h1{
+    background-color: aqua;
+    font-style: initial;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* Men's fashion wab page css */
+
+body, h1, h2, h3, ul, li, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #CECECE;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  /* Header styles */
+
+  header {
+    background-color:rgb(81, 169, 175);
+    color: rgb(238, 230, 230);
+    padding: 20px;
+    position: fixed;
+    width: 1310px;
+    height: 50px;
+  }
+  
+  header h1 {
+    font-size: 25px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: rgb(247, 244, 244);
+    text-decoration: none;
+    margin-left: 60px;
+  }
+  nav ul li :hover{
+    color: rgb(48, 42, 54);
+    transition: 1s;
+    font-style: initial;
+  }
+
+  img{
+      height: 300px;
+      width: 1310px;
+      margin-top: 90px ;
+      box-shadow: 1px 2px 3px 2px #CECECE;
+  }
+  
+  /* Banner styles */
+  #banner {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  #banner h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-top: 1px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: rgb(46, 44, 45);
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+  
+  }
+  .btn:hover{
+    background-color: #967BB6;
+    color: #43302E;
+    transition: 1s;
+  }
+  h2{
+    font-size: 36px;
+    margin-left: 70px;
+  }
+  
+  /* Products styles */
+  .contener {
+       display: flex;
+       flex-direction: row;
+       justify-content:space-evenly;
+
+  }
+  .product:hover{
+    box-shadow: 0 0 10px #888;
+  }
+  
+  .product {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 30px;
+  }
+  
+  .product img {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+    margin-top: 2px;
+    margin-left:2px;
+    margin-right:2px ;
+  }
+  
+  .product h3 {
+    font-size: 18px;
+  }
+  
+  .product p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .product a{
+    margin-bottom: 5px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+
