@@ -1,5 +1,6 @@
 .body{
     background-color: #CECECE;
+    background-image: url("https://img.freepik.com/premium-photo/fast-fashion-store-showcasing-latest-trends-styles-customers_124507-151250.jpg?w=2000");
 }
 
 .head-container{
@@ -11,10 +12,11 @@
 
 .foryo-img{
     display: block;
-    height: 70px;
+    height: 80px;
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: -50px;
 }
 
 .foryo-img:hover{
@@ -36,44 +38,46 @@
     background-color: white;
     margin-left: auto;
     margin-right: auto;
-    width: 350px;
-    height: 480px;
-    border-radius: 5px;    
+    width: 430px;
+    height: 580px;
+    border-radius: 15px;    
     border: 1px solid black;
+    margin-top: 100px;
 }
 
 .heading{
     text-align: left;
-    margin-left: 20px;
+    margin-left: 30px;
     margin-top: 10px;
-    font-size: 25px;
+    font-size: 28px;
     font-weight: 500;
     font-family: 'verdana';
 }
 
 .username-text{
     font-family: verdana;
-    margin-left: 40px;
-    font-size: 16px;
+    margin-left: 50px;
+    font-size: 18px;
     font-weight: 500;
     margin-top: 25px;
 }
 
 .username-input{
     font-family: verdana;
-    margin-left: 40px;
-    width:280px;
+    margin-left: 50px;
+    width:330px;
     margin-top: -5px;
     font-size: 18px;
     border-radius: 5px;
     border: 1px solid black;
     box-shadow: 3px 3px 3px 0px;
+    height: 35px;
 }
 
 .username-input:hover{
     font-family: verdana;
-    margin-left: 40px;
-    width:280px;
+    margin-left: 50px;
+    width:330px;
     margin-top: -5px;
     font-size: 18px;
     border-radius: 5px;
@@ -83,19 +87,20 @@
 
 .password-input{
     font-family: verdana;
-    margin-left: 40px;
-    width:280px;
+    margin-left: 50px;
+    width:330px;
     margin-top: -5px;
     font-size: 18px;
     border-radius: 5px;
     border: 1px solid black;
     box-shadow: 3px 3px 3px 0px;
+    height: 35px;
 }
 
 .password-input:hover{
     font-family: verdana;
-    margin-left: 40px;
-    width:280px;
+    margin-left: 50px;
+    width:330px;
     margin-top: -5px;
     font-size: 18px;
     border-radius: 5px;
@@ -108,7 +113,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
-    font-size: 18px;
+    font-size: 20px;
     font-family: verdana;
     border-radius: 12px;
     padding: 8px 25px;
@@ -121,12 +126,12 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
-    font-size: 18px;
+    font-size: 21px;
     font-family: verdana;
     border-radius: 12px;
     padding: 8px 25px;
     box-shadow: 2px 2px 3px 0px;
     background-color: #b0a5a5; 
-    border-radius: 12px solid black;
+    transition: 1s;
 }
 
