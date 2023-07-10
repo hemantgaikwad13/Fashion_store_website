@@ -1,171 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  
+  <link rel="stylesheet" href="./../css/review.css">
     <title>review</title>
-     <style>
-       body
-       {
-        background-color: #b3b3b3;
-        margin: 0;
-       }
-       .review-heading
-       {
-         text-align: center;
-        font-size: 50px;
-        margin: 50px;
-        padding: 10px;
-       }
-      
-       .container
-       {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        width: 100%;
-       }
-       .review-cont
-       {
-        margin-top: 6%;
-       }
-       .review-slide
-       {
-        height: 400px;
-        width: 260px;
-        margin-left: 25px;
-        margin-right: 25px;
-        background-color: white;
-        border-radius: 5px;
-        display:inline-block;
-        justify-content: space-around;
-       }
-       .box
-       {
-       padding-left: 10px;
-    }
-       .star-img
-       {
-        height: 20px;
-        width: 20px;
-       margin-left: -5px;
-       display:inline-block;
-       }
-       .text
-       {  
-        color: #8c8c8c;
-        font-family: sans-serif;
-        font-weight:545;
-        display: inline-block;
-       }
-       .clothes
-       {
-        font-size: 20px;
-        font-weight: 700;
-        color:#333333;
-        margin-top: -5px;
-       }
-       .collection
-       {
-        margin-top: -15px;
-        color:#ffa600;
-        font-weight: 700;
-        font-size:20px ;
-       }
-       .btn
-       {
-        border: 1px solid black;
-        background-color:#333333;
-        color: azure;
-        border-radius: 25px;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 6px;
-        padding-bottom: 6px;
-        text-decoration: none;
-       } 
-       .btn:hover
-       {
-        background-color: white;
-        border: 2px solid black;
-        color: black;
-        cursor: pointer;
-       }
-       .customer-cont
-       {
-        height:320px;
-        width:300p;
-        padding: 15px;
-        display: flex;
-        justify-content: space-around;
-       }
-       .customer-slide
-       {
-        height: 280px;
-        width:320px;
-        background-color:#f2f2f2;
-       }
-       .user-img
-       {
-        height: 80px;
-        width: 80px;
-        border-radius: 50%;
-       margin-left: 110px;
-       margin-top: -32px;
-       }
-       .user-name
-       {
-        text-align: center;
-        margin-left: -8px;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-weight: 600;
-      }
-      .star-img-cont
-      {
-        display: flex;
-        justify-content: center;   
-      }
-      .img-star
-      {
-        height: 20px;
-        width: 20px;
-        margin-left: 2px;
-      }
-      .feedback
-      {
-        padding-left: 15px;
-        padding-right: 15px;
-        color: black;
-      }
-      .bad-feedback
-      {
-        color: red;
-        padding-left: 15px;
-        padding-right: 15px;
-      }
-      .slide:hover
-      {
-        box-shadow: 0 0 20px black;
-        border-radius: 0%;
-      }
-     </style>
-    
 </head>
 <body>
+
   <header>
     <h1 class="center">Welcome to Froyo's Fashion Store</h1>
-    <nav class="navbar center">
-        <a href="./index.html"              class="link">          Home             </a>
-        <a href="./pages/womens.html"            class="link">          Women's wear     </a>
-        <a href="./pages/mens.html"              class="link">          Men's Wear       </a>
-        <a href="./pages/kids.html"              class="link">          Kids wear        </a>
-        <a href="./pages/footwear.html"          class="link">          Footwear         </a>
-        <a href="./pages/accessories.html"       class="link">          Accessories      </a>
-        <a href="./pages/onsale.html"            class="link">          On sale          </a>
-        <a href="./pages/reviews.html"           class="link">          Reviews          </a>
-        <a href="./pages/login.html"             class="link">          Login            </a>
+    <nav class="navbar-center">
+        <a href="./index.html"             class="link">Home         </a>
+        <a href="./pages/womens.html"      class="link">Women's wear </a>
+        <a href="./pages/mens.html"        class="link">Men's Wear   </a>
+        <a href="./pages/kids.html"        class="link">Kids wear    </a>
+        <a href="./pages/footwear.html"    class="link">Footwear     </a>
+        <a href="./pages/accessories.html" class="link">Accessories  </a>
+        <a href="./pages/onsale.html"      class="link">On sale      </a>
+        <a href="./pages/reviews.html"     class="link">Reviews      </a>
+        <a href="./pages/login.html"       class="link">Login        </a>
     </nav>
 </header>
-
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
    <u><h1 class="review-heading">Latest Reviews</h1></u>
    <div class="container review-cont">
     <div class="review-slide slide">
@@ -583,8 +443,8 @@
   <div class="column subscribe">
    <h3>Connect With Us</h3>
     <div>
-     <input type="email" placeholder="Your email id here" />
-     <button>Subscribe</button>
+     <input type="email" placeholder="Your email id here"  class="input-box"/>
+     <button class="input-box">Subscribe</button>
     </div>
   
   </div>
