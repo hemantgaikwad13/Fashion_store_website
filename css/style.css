@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-body{
-    background-color: #ffaa00;
-}
-=======
 .h1{
     background-color: aqua;
     font-style: initial;
@@ -95,9 +90,6 @@ body, h1, h2, h3, ul, li, p {
     font-size: 36px;
     margin-left: 70px;
   }
-  p{
-
-  }
   
   /* Products styles */
   .contener {
@@ -145,5 +137,3 @@ body, h1, h2, h3, ul, li, p {
     padding: 20px;
   }
 
-  
->>>>>>> e65eee8a5267117bcc564785f39da0257832034d
