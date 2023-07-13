@@ -1,153 +1,139 @@
 /* navbar */
+
 header {
-    background-color:rgb(11, 20, 20);
+    background-color: rgb(11, 20, 20);
     color: rgb(238, 230, 230);
     padding: 15px;
     position: fixed;
     width: 100%;
-   
-  }
-  
-  header h1 {
+}
+
+header h1 {
     font-size: 20px;
-  }
+}
 
-
-  a{
+a {
     text-decoration: none;
     color: black;
     font-size: 20px;
-   
-  }
+}
 
-
-  a.hover{
+a.hover {
     background-color: #121315;
     color: white;
-  }
-  
-  .center{
-    text-align: center;  }
-  
+}
 
-    .link{
+.center {
+    text-align: center;
+}
+
+.link {
     text-decoration: none;
     display: inline-block;
     color: white;
     margin: 15px;
     padding: 1px 3px 1px 3px;
     font-size: 25px;
-   
-    
-    }
+}
 
-    .link:hover{
+.link:hover {
     background-color: white;
     color: black;
     border-radius: 3px;
     padding: 2px 4px 2px 4px;
     transition: 1s;
     font: 40px;
-    }
+}
 
-body{
-    margin: 0 ;
+body {
+    margin: 0;
     font-family: Arial, sans-serif;
     background-color: #CECECE;
     color: #333;
-
 }
 
 
 /* frist poster */
-.img_discount{
-            width: 100%;
-            height: 400px;
-            margin-top: 140px;
-        }
+
+.img_discount {
+    width: 100%;
+    height: 400px;
+    margin-top: 140px;
+}
 
 
- /* Products styles */
+/* Products styles */
+
 .container {
     display: flex;
     flex-direction: row;
-    justify-content:space-evenly
-
+    justify-content: space-evenly
 }
 
-.div_more{
+.div_more {
     margin-left: auto;
     width: 150px;
     margin-bottom: 5px;
     border-radius: 20px;
-
 }
 
-
-.btn{
+.btn {
     text-decoration: none;
     border-radius: 10px;
     background-color: black;
     color: #fffffffc;
     padding: 10px 20px;
-    
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #55a02a;
     color: black;
     transition: 1s;
 }
 
-.discount_poster{
-margin-top: 10px;
-width: 100%;
-height: 500px;
+.discount_poster {
+    margin-top: 10px;
+    width: 100%;
+    height: 500px;
 }
 
 .grid-container {
-padding: 10px;
-display: grid;
-align-items: center;
-grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto auto auto;
 }
 
-
-.product:hover{
-box-shadow: 0 0 10px #888;
+.product:hover {
+    box-shadow: 0 0 10px #888;
 }
-
 
 .product {
-text-align: center;
-margin-bottom: 40px;
-padding: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 30px;
 }
-
 
 .product img {
-width: 250px;
-height: 250px;
-margin-bottom: 10px;
-margin-top: 2px;
-margin-left:2px;
-margin-right:2px ;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
 }
-
 
 .product h3 {
-font-size: 18px;
+    font-size: 18px;
 }
 
-
-.product  {
-font-size: 16px;
-margin-bottom: 10px;
+.product {
+    font-size: 16px;
+    margin-bottom: 10px;
 }
 
-
-.product a{
-margin-bottom: 5px;
+.product a {
+    margin-bottom: 5px;
 }
 
 
@@ -155,366 +141,282 @@ margin-bottom: 5px;
 
 footer {
     background-color: #121315;
-    color:white;
+    color: white;
     font-size: 16px;
-  }
+}
 
-  
-  footer * {
+footer * {
     font-family: "Poppins", sans-serif;
     box-sizing: border-box;
     border: none;
     outline: none;
-  }
+}
 
-
-  .row {
+.row {
     padding: 1em 1em;
-  }
+}
 
-
-  .row.primary {
+.row.primary {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 2fr;
     align-items: stretch;
-  }
+}
 
-
-  .foryo-img{
+.foryo-img {
     display: block;
     height: 150px;
     border-radius: 50%;
     padding: 20px;
     margin-right: auto;
     margin-left: auto;
-   }
+}
 
-
-  .column {
+.column {
     width: 100%;
     display: flex;
     flex-direction: column;
     padding: 0 2em;
     min-height: 15em;
-  }
+}
 
-
-  h3 {
+h3 {
     width: 100%;
     text-align: center;
     color: white;
     font-size: 1.4em;
-  }
+}
 
-
-  ul {
+ul {
     list-style: none;
     display: flex;
     flex-direction: column;
     padding: 0;
     margin: 0;
-  }
+}
 
-
-  li:not(:first-child) {
+li:not(:first-child) {
     margin-top: 0.8em;
-  }
+}
 
-
-  ul li a {
+ul li a {
     color: #a7a7a7;
     text-decoration: none;
-  }
+}
 
-
-  ul li a:hover {
+ul li a:hover {
     color: #2a8ded;
-  }
+}
 
-
-  .about p {
+.about p {
     text-align: justify;
     line-height: 2;
     margin: 0;
-  }
+}
 
-
-  input,button {
+input,
+button {
     font-size: 1em;
     padding: 1em;
     width: 100%;
     border-radius: 5px;
     margin-bottom: 5px;
-  }
+}
 
-
-  button {
+button {
     background-color: white;
     color: black;
-  }
-  
-  
-  .footer-menu{
-    float: left;
-      margin-top: 10px;
-  }
-  
+}
 
-  .footer-menu a{
+.footer-menu {
+    float: left;
+    margin-top: 10px;
+}
+
+.footer-menu a {
     color: #cfd2d6;
     padding: 6px;
-  
     text-decoration: none;
-  }
+}
 
-
-  .footer-menu a:hover{
+.footer-menu a:hover {
     color: #27bcda;
-  }
-  
+}
 
-  .p{
-      color: #cfd2d6;
-  }
-  
+.p {
+    color: #cfd2d6;
+}
 
-  @media screen and (max-width: 850px) {
+@media screen and (max-width: 850px) {
     .row.primary {
-      grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
     }
-  
-  }  
-
+}
 
 
 /* Media query for width >=1350px */
 
-  @media screen and (min-width: 1350px){
-
-     /* navigation bar media query */
-    header{
-      width: 100%;
-      height: 100px;
-    }
-
-
-    header h1 {
-      font-size: 17px;
-    }
-
-
-   /* main page media queary */
-    .product img{
-        width: 270px;
-        height: 270px;}}
-
-
-
-  /* media query for width between 900px to 1350px */
-  @media screen and (min-width:900px) and (max-width: 1350px){
-
-
-     /* navigation bar media query */
-    header{
-      width: 100%;
-      height: 80px;
-    }
-
-
-    header h1 {
-      font-size: 20x;
-    }
-
-
-    nav {
-      flex-direction: column;
-    }
-
-
-    nav a {
-      margin-left: 10px;
-      margin-top: 3px;
-      font-size: 15px;}
-
-
-      .link{
-        flex-direction: column;
-        margin-left: 20px;
-        margin-top: 3px;
-        font-size: 15px;
-      }
-
-
-       /* main page media queary */
-    img {
-      width: 100%;
-      height: 150px;
-      margin-top: 120px;
-    }
-   
-
-     h2 {
-      font-size: 25px;
-      margin-bottom: 18px;
-      margin-left: 20px;
-    }
-
-    
-    .img_discount {
-      height: 200px;
-    }
-
-
-    .discount_poster{
-      height: 200px;
-    }
-
-
-    .btn {
-      display: inline-block;
-      background-color: rgb(46, 44, 45);
-      color: #fff;
-      padding: 5px 10px;
-      text-decoration: none;
-    }
-
-
-    h2{
-      font-size: 28px;
-      margin-left: 35px;
-    }
-  
-
-    .container{
-        flex-direction: column;
-  
-    }
-
-
-    .grid-container{
-      width: 100%;
-      padding-inline: 12px ;
-      grid-row: span 1;
-      grid-template-columns: auto auto;
-    }
-
-
-    .product img{
-      width: 250px;
-      height: 250px;
-    }
-
-
-    /* footer image query */
-    .foryo-img{
-      height: 100px;
-      width: 100px;
-      padding: 10px
-    }
-  }
-
-
-  /* media query for width <=900 */
-  @media screen and  (max-width: 900px){
-
-
+@media screen and (min-width: 1350px) {
     /* navigation bar media query */
-
-    
-    header{
-      width: 100%;
-      height: 100px;
+    header {
+        width: 100%;
+        height: 100px;
     }
-
-
     header h1 {
-      font-size: 15x;
+        font-size: 17px;
     }
+    /* main page media queary */
+    .product img {
+        width: 270px;
+        height: 270px;
+    }
+}
 
 
+/* media query for width between 900px to 1350px */
+
+@media screen and (min-width:900px) and (max-width: 1350px) {
+    /* navigation bar media query */
+    header {
+        width: 100%;
+        height: 80px;
+    }
+    header h1 {
+        font-size: 20x;
+    }
     nav {
-      flex-direction: column;
+        flex-direction: column;
     }
-
-
     nav a {
-      margin-left: 10px;
-      margin-top: 3px;
-      font-size: 15px;}
-
-
-      .link{
+        margin-left: 10px;
+        margin-top: 3px;
+        font-size: 15px;
+    }
+    .link {
         flex-direction: column;
         margin-left: 20px;
         margin-top: 3px;
         font-size: 15px;
-      }
-
-
-      /* main page media query */
-
+    }
+    /* main page media queary */
     img {
-      width: 100%;
-      height: 120px;
-      margin-top: 120px;
+        width: 100%;
+        height: 150px;
+        margin-top: 120px;
     }
-   
-
-     h2 {
-      font-size: 25px;
-      margin-bottom: 18px;
-      margin-left: 20px;
+    h2 {
+        font-size: 25px;
+        margin-bottom: 18px;
+        margin-left: 20px;
     }
-
-
     .img_discount {
-      height: 150px;
+        height: 200px;
     }
-
-
-    .discount_poster{
-      height: 150px;
+    .discount_poster {
+        height: 200px;
     }
-
-
     .btn {
-      display: inline-block;
-      background-color: rgb(46, 44, 45);
-      color: #fff;
-      padding: 5px 10px;
-      text-decoration: none;
+        display: inline-block;
+        background-color: rgb(46, 44, 45);
+        color: #fff;
+        padding: 5px 10px;
+        text-decoration: none;
     }
-
-
-    h2{
-      font-size: 28px;
-      margin-left: 35px;
+    h2 {
+        font-size: 28px;
+        margin-left: 35px;
     }
-  
-    .container{
+    .container {
         flex-direction: column;
-  
     }
-
-
-    .grid-container{
-      width: 100%;
-      padding-inline: 12px ;
-      grid-row: span 1;
-      grid-template-columns: auto auto;
+    .grid-container {
+        width: 100%;
+        padding-inline: 12px;
+        grid-row: span 1;
+        grid-template-columns: auto auto;
     }
-
-
-    .product img{
-      width: 150px;
-      height: 150px;
+    .product img {
+        width: 250px;
+        height: 250px;
     }
-
-    
     /* footer image query */
-    .foryo-img{
-      height: 100px;
-      width: 100px;
-      padding: 10px
+    .foryo-img {
+        height: 100px;
+        width: 100px;
+        padding: 10px
     }
-  }
+}
+
+
+/* media query for width <=900 */
+
+@media screen and (max-width: 900px) {
+    /* navigation bar media query */
+    header {
+        width: 100%;
+        height: 100px;
+    }
+    header h1 {
+        font-size: 15x;
+    }
+    nav {
+        flex-direction: column;
+    }
+    nav a {
+        margin-left: 10px;
+        margin-top: 3px;
+        font-size: 15px;
+    }
+    .link {
+        flex-direction: column;
+        margin-left: 20px;
+        margin-top: 3px;
+        font-size: 15px;
+    }
+    /* main page media query */
+    img {
+        width: 100%;
+        height: 120px;
+        margin-top: 120px;
+    }
+    h2 {
+        font-size: 25px;
+        margin-bottom: 18px;
+        margin-left: 20px;
+    }
+    .img_discount {
+        height: 150px;
+    }
+    .discount_poster {
+        height: 150px;
+    }
+    .btn {
+        display: inline-block;
+        background-color: rgb(46, 44, 45);
+        color: #fff;
+        padding: 5px 10px;
+        text-decoration: none;
+    }
+    h2 {
+        font-size: 28px;
+        margin-left: 35px;
+    }
+    .container {
+        flex-direction: column;
+    }
+    .grid-container {
+        width: 100%;
+        padding-inline: 12px;
+        grid-row: span 1;
+        grid-template-columns: auto auto;
+    }
+    .product img {
+        width: 150px;
+        height: 150px;
+    }
+    /* footer image query */
+    .foryo-img {
+        height: 100px;
+        width: 100px;
+        padding: 10px
+    }
+}
